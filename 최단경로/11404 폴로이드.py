@@ -31,7 +31,7 @@ for a in range(1,n+1):
     for b in range(1,n+1):
         # 도달 불가한 경우
         if graph[a][b] == inf:
-            print("INF", end = " ")
+            print(0, end = " ")
         else:
             print(graph[a][b], end=" ")
     print()
