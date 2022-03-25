@@ -1,5 +1,6 @@
 import sys
 import heapq as h
+input = sys.stdin.readline
 
 inf = sys.maxsize
 # 노드, 간선의 개수
