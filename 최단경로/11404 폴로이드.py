@@ -18,7 +18,7 @@ for a in range(1,n+1):
 # 각 간선에 대한 정보를 입력 받아, 그 값으로 초기화
 for _ in range(m):
     u, v, w = map(int,input().split())
-        # 같은 방향의 버스중 cost가 적은 버스 선
+    # 같은 방향의 버스중 cost가 적은 버스 선택
     graph[u][v] = min(graph[u][v], w)
 
 # 점화식을 따라 플로이드 워셜 알고리즘
